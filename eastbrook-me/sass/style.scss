@@ -18,7 +18,40 @@ Version: 1.2
 }
 /*  header stuff - here */
 
+div.logo {
+	padding-top: 3px;
+	padding-bottom: 100px;
+}
+
 /*** styling of content */
+
+.online-services ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 1.5em;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+
+.board-of-selectmen {
+		ul {
+	    display: flex;
+	    list-style: none;
+	    justify-content: space-between;
+	    font-size: 1.5em;
+	    flex-wrap: wrap;
+	    font-weight: bold;
+	    text-align: center;
+		}
+		ul li ul {
+	    padding-left: 0em;
+	    margin-top: 0px;
+		}
+		h4 {
+			margin-bottom: 0px;
+		}
+}
 
 /** sidebar
 

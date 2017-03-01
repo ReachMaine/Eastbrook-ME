@@ -1,4 +1,3 @@
-@import url("../oshin/style.css");
 /*
 Theme Name: Eastbrook
 Description: Oshin Child Theme for Reach Maine
@@ -6,6 +5,7 @@ Author: Reach Maine
 Template: oshin
 Version: 1.2
 */
+@import url("../oshin/style.css");
 /* ----------- Colors ---------------------------------- */
 /* ----------- end Colors ----------- */
 /* ----------- Typography ------------------------------- */
@@ -40,7 +40,33 @@ i.fa-pull-right {
 
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
+div.logo {
+  padding-top: 3px;
+  padding-bottom: 100px; }
+
 /*** styling of content */
+.online-services ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  font-size: 1.5em;
+  flex-wrap: wrap;
+  font-weight: bold; }
+
+.board-of-selectmen ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  font-size: 1.5em;
+  flex-wrap: wrap;
+  font-weight: bold;
+  text-align: center; }
+.board-of-selectmen ul li ul {
+  padding-left: 0em;
+  margin-top: 0px; }
+.board-of-selectmen h4 {
+  margin-bottom: 0px; }
+
 /** sidebar
 
 /** footer **/
