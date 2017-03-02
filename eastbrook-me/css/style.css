@@ -1,0 +1,48 @@
+/*
+Error: Invalid CSS after "@import ": expected "{", was "url("../oshin/s..."
+        on line 11 of F:/Internet/Users/TimS/GitHub Websites/Eastbrook-ME/eastbrook-me/sass/style.scss
+
+6: Author: Reach Maine
+7: Template: oshin
+8: Version: 1.2
+9: *\/
+10: 
+11: @import url("../oshin/style.css");
+12: @import "partials/colors";
+13: @import "partials/typography";
+14: @import "partials/oshine";
+15: 
+16: 
+
+Backtrace:
+F:/Internet/Users/TimS/GitHub Websites/Eastbrook-ME/eastbrook-me/sass/style.scss:11
+C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/scss/parser.rb:1164:in `expected'
+C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/scss/parser.rb:1099:in `expected'
+C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/scss/parser.rb:1094:in `tok!'
+C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/scss/parser.rb:641:in `block'
+C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/scss/parser.rb:635:in `ruleset'
+C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/scss/parser.rb:660:in `block_child'
+C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/scss/parser.rb:650:in `block_contents'
+C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/scss/parser.rb:117:in `stylesheet'
+C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/scss/parser.rb:42:in `parse'
+C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/engine.rb:393:in `_to_tree'
+C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/engine.rb:268:in `render'
+C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+org/jruby/RubyMethod.java:136:in `call'
+file:/C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/compass-app.jar!/hook/compass_patch.rb:108:in `update_stylesheet'
+C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/plugin/compiler.rb:215:in `update_stylesheets'
+org/jruby/RubyArray.java:1613:in `each'
+C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/plugin/compiler.rb:329:in `watch'
+org/jruby/RubyProc.java:271:in `call'
+C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/jruby/listen-1.1.6/lib/listen/listener.rb:236:in `on_change'
+C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/jruby/listen-1.1.6/lib/listen/listener.rb:271:in `initialize_adapter'
+org/jruby/RubyProc.java:271:in `call'
+C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/jruby/listen-1.1.6/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/jruby/listen-1.1.6/lib/listen/adapter.rb:289:in `start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"@import \": expected \"{\", was \"url(\"../oshin/s...\"\A         on line 11 of F:/Internet/Users/TimS/GitHub Websites/Eastbrook-ME/eastbrook-me/sass/style.scss\A \A 6: Author: Reach Maine\A 7: Template: oshin\A 8: Version: 1.2\A 9: */\A 10: \A 11: @import url(\"../oshin/style.css\");\A 12: @import \"partials/colors\";\A 13: @import \"partials/typography\";\A 14: @import \"partials/oshine\";\A 15: \A 16: "; }
