@@ -1,48 +1,93 @@
 /*
-Error: Invalid CSS after "@import ": expected "{", was "url("../oshin/s..."
-        on line 11 of F:/Internet/Users/TimS/GitHub Websites/Eastbrook-ME/eastbrook-me/sass/style.scss
-
-6: Author: Reach Maine
-7: Template: oshin
-8: Version: 1.2
-9: *\/
-10: 
-11: @import url("../oshin/style.css");
-12: @import "partials/colors";
-13: @import "partials/typography";
-14: @import "partials/oshine";
-15: 
-16: 
-
-Backtrace:
-F:/Internet/Users/TimS/GitHub Websites/Eastbrook-ME/eastbrook-me/sass/style.scss:11
-C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/scss/parser.rb:1164:in `expected'
-C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/scss/parser.rb:1099:in `expected'
-C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/scss/parser.rb:1094:in `tok!'
-C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/scss/parser.rb:641:in `block'
-C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/scss/parser.rb:635:in `ruleset'
-C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/scss/parser.rb:660:in `block_child'
-C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/scss/parser.rb:650:in `block_contents'
-C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/scss/parser.rb:117:in `stylesheet'
-C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/scss/parser.rb:42:in `parse'
-C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/engine.rb:393:in `_to_tree'
-C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/engine.rb:268:in `render'
-C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-org/jruby/RubyMethod.java:136:in `call'
-file:/C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/compass-app.jar!/hook/compass_patch.rb:108:in `update_stylesheet'
-C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/plugin/compiler.rb:215:in `update_stylesheets'
-org/jruby/RubyArray.java:1613:in `each'
-C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/plugin/compiler.rb:329:in `watch'
-org/jruby/RubyProc.java:271:in `call'
-C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/jruby/listen-1.1.6/lib/listen/listener.rb:236:in `on_change'
-C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/jruby/listen-1.1.6/lib/listen/listener.rb:271:in `initialize_adapter'
-org/jruby/RubyProc.java:271:in `call'
-C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/jruby/listen-1.1.6/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-C:/Users/TimS.BAKERSVILLE/Downloads/Dowloads until 9-6-2016/compass.app.windows.v1.28.1/compass.app/lib/ruby/jruby/listen-1.1.6/lib/listen/adapter.rb:289:in `start_poller'
+Theme Name: Eastbrook
+Description: Oshin Child Theme for Reach Maine
+Author: Reach Maine
+Template: oshin
+Version: 1.2
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"@import \": expected \"{\", was \"url(\"../oshin/s...\"\A         on line 11 of F:/Internet/Users/TimS/GitHub Websites/Eastbrook-ME/eastbrook-me/sass/style.scss\A \A 6: Author: Reach Maine\A 7: Template: oshin\A 8: Version: 1.2\A 9: */\A 10: \A 11: @import url(\"../oshin/style.css\");\A 12: @import \"partials/colors\";\A 13: @import \"partials/typography\";\A 14: @import \"partials/oshine\";\A 15: \A 16: "; }
+@import url("../oshin/style.css");
+/* ----------- Colors ---------------------------------- */
+/* ----------- end Colors ----------- */
+/* ----------- Typography ------------------------------- */
+i.fa-pull-left {
+  float: left;
+  padding-right: 5px; }
+
+i.fa-pull-right {
+  float: right;
+  padding-left: 5px; }
+
+/* ----------- end typography ----------- */
+/* standard Reach styling of Oshin */
+.title-module-wrap.page-title-module-custom {
+  padding: 10px 0px; }
+
+.left-sidebar-page,
+.right-sidebar-page,
+.no-sidebar-page .be-section-pad:first-child,
+.page-template-page-940-php #content,
+.no-sidebar-page #content-wrap,
+.portfolio-archives.no-sidebar-page #content-wrap {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.tatsu-module {
+  margin-bottom: 15px; }
+
+.page #comments {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important; }
+
+/*** slidebar in oshine slidebar is above main content *** */
+/*  header stuff - here */
+div.logo {
+  padding-top: 3px;
+  padding-bottom: 148px; }
+
+/*** styling of content */
+.online-services-resources ul {
+  list-style: none;
+  font-size: 1.5em;
+  font-weight: bold; }
+
+.board-of-selectmen ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  font-size: 1.5em;
+  flex-wrap: wrap;
+  font-weight: bold;
+  text-align: center; }
+.board-of-selectmen ul li ul {
+  padding-left: 0em;
+  margin-top: 0px; }
+.board-of-selectmen h4 {
+  margin-bottom: 0px; }
+
+/** sidebar
+
+/** footer **/
+#reach-bottom-cta {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+#footer a.reach-logo {
+  color: white; }
+#footer .reach-logo:before {
+  content: url("images/reach-favicon.png");
+  padding-right: 4px; }
+
+/* *** keep this at the end *** */
+/* **** media **** */
+@media only screen and (max-width: 767px) {
+  #main-wrapper #header .logo {
+    padding-bottom: 90px; }
+  #main-wrapper #content .photo-divider .tatsu-section-pad {
+    padding: 25px 0px 25px 0px !important; }
+  #main-wrapper #content .tatsu-section .tatsu-row-wrap:last-child .tatsu-column {
+    margin-bottom: 20px; }
+  #main-wrapper #content h2 {
+    font-size: 35px;
+    line-height: 38px; }
+  #main-wrapper #content .online-services-resources ul {
+    font-size: 1.3em; } }

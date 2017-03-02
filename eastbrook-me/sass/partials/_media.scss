@@ -20,7 +20,7 @@
 	#main-wrapper {
 		#header {
 			.logo {
-			//	padding-top: 5px;
+				padding-bottom:90px;
 			}
 			#header-controls-right {
 			//	line-height: 120px;
@@ -35,7 +35,17 @@
 		#content {
 		//	padding-top: 120px;
 			.photo-divider .tatsu-section-pad {
-				padding: 25px 0px 25px 0px;
+				padding: 25px 0px 25px 0px !important;
+			}
+			.tatsu-section .tatsu-row-wrap:last-child .tatsu-column {
+				margin-bottom: 20px;
+			}
+			h2 {
+				font-size: 35px;
+				line-height: 38px;
+			}
+			.online-services-resources ul {
+				font-size: 1.3em;
 			}
 			.be-text-inner {
 		//		width: 92%!important;
