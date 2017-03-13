@@ -17,6 +17,10 @@ i.fa-pull-right {
   float: right;
   padding-left: 5px; }
 
+.wp-caption .wp-caption-text {
+  font-size: 14px;
+  line-height: 19px; }
+
 /* ----------- end typography ----------- */
 /* standard Reach styling of Oshin */
 .title-module-wrap.page-title-module-custom {
@@ -63,6 +67,9 @@ div.logo {
   margin-top: 0px; }
 .board-of-selectmen h4 {
   margin-bottom: 0px; }
+
+.wp-caption p {
+  margin-bottom: 8px; }
 
 /** sidebar
 
