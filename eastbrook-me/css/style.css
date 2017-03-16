@@ -51,8 +51,9 @@ div.logo {
 /*** styling of content */
 .online-services-resources ul {
   list-style: none;
-  font-size: 1.5em;
-  font-weight: bold; }
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-left: 0px; }
 
 .board-of-selectmen ul {
   display: flex;
