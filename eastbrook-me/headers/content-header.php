@@ -141,7 +141,7 @@ if ( isset($be_themes_data['mobile_bg_controller']) && !empty($be_themes_data['m
 							<?php be_themes_get_header_logo_image(); ?>
 						</div>
 						<?php } ?>
-						<?php/*<div id="header-controls-right">
+						<?php /*<div id="header-controls-right">
 							<div class="mobile-nav-controller-wrap">
 								<!-- <div class="menu-controls mobile-nav-controller"><div class="font-icon custom-font-icon"><span class="menu-icon menu-icon-first"></span><span class="menu-icon menu-icon-second"></span><span class="menu-icon menu-icon-third"></span></div></div> -->
 								<div class="menu-controls mobile-nav-controller" title="Mobile Menu Controller"><span class="be-mobile-menu-icon"></span></div>
@@ -164,7 +164,7 @@ if ( isset($be_themes_data['mobile_bg_controller']) && !empty($be_themes_data['m
 					if ((basename($be_themes_data['opt-header-style'], '.png') != 'style2' ) && (basename($be_themes_data['opt-header-style'], '.png') != 'style6' )){
 						if (((basename($be_themes_data['opt-header-style'], '.png') != 'style2' ) && (basename($be_themes_data['opt-header-style'], '.png') != 'style6' )) || (isset($be_themes_data['top-menu-style']) && !empty($be_themes_data['top-menu-style']) && $be_themes_data['top-menu-style'] == 'menu-animate-fall')) {?>
 						<!-- if (((basename($be_themes_data['opt-header-style'], '.png') != 'style2' ) && (basename($be_themes_data['opt-header-style'], '.png') != 'style4' ) && (basename($be_themes_data['opt-header-style'], '.png') != 'style6' ) && (basename($be_themes_data['opt-header-style'], '.png') != 'style5' )) || (isset($be_themes_data['top-menu-style']) && !empty($be_themes_data['top-menu-style']) && $be_themes_data['top-menu-style'] == 'menu-animate-fall')) {?> -->
-							<?php/*<nav id="navigation" class="clearfix sully">	<?php
+							<?php /*<nav id="navigation" class="clearfix sully">	<?php
 								be_themes_get_header_navigation();?>
 							</nav><!-- End Navigation -->*/?><?php
 						}
